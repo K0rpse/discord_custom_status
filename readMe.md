@@ -6,8 +6,6 @@ This tool allows you to have the exact time in real time in bio discord. You can
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 - [![Nodejs][Nodejs]][Nodejs-url]
 
 ### Prerequisites
@@ -16,8 +14,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 - nodejs
 
 ### Installation
-
-_How to install it_
 
 1. Clone the repo
    ```sh
