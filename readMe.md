@@ -12,8 +12,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-
 - npm
 - nodejs
 
@@ -31,7 +29,7 @@ _How to install it_
    ```
 3. Enter your API in `config.js`
    ```js
-   const API_KEY = "ENTER YOUR API";
+   "token": "your-token";
    ```
 
 [Nodejs]: https://img.shields.io/badge/Nodejs-35495E?style=for-the-badge&logo=nodedotjs&logoColor=4FC08D
