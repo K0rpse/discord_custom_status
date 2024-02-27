@@ -27,7 +27,7 @@ _How to install it_
    ```sh
    npm install
    ```
-3. Enter your API in `config.js`
+3. Enter your API in `config.json`
    ```js
    "token": "your-token";
    ```
