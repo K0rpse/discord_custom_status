@@ -8,7 +8,7 @@ This tool allows you to have the exact time in real time in bio discord. You can
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-- [![Nodejs][nodejs.com]][Nodejs-url]
+- [![Nodejs][Nodejs]][Nodejs-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -38,4 +38,3 @@ _How to install it_
 
 [Nodejs]: https://img.shields.io/badge/Nodejs-35495E?style=for-the-badge&logo=nodedotjs&logoColor=4FC08D
 [Nodejs-url]: https://nodejs.org/en
-[nodejs.com]: https://nodejs.org/en
