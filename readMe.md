@@ -10,8 +10,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 - [![Nodejs][Nodejs]][Nodejs-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
