@@ -89,19 +89,23 @@ class DiscordClient extends EventEmitter {
 
   async display_time_as_status() {
     const sendHour = () => {
-      const maintenant = new Date();
-      let hours =
-        maintenant.getHours().toString().length == 1
-          ? "0" + maintenant.getHours().toString()
-          : maintenant.getHours();
-      let minutes =
-        maintenant.getMinutes().toString().length == 1
-          ? "0" + maintenant.getMinutes().toString()
-          : maintenant.getMinutes();
-      let seconds =
-        maintenant.getSeconds().toString().length == 1
-          ? "0" + maintenant.getSeconds().toString()
-          : maintenant.getSeconds();
+      const currentDate = new Date();
+
+      // Format the date and time, including seconds
+      const formattedDate = currentDate.toLocaleDateString("en-US", {
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+      });
+
+      const formattedTime = currentDate.toLocaleTimeString("en-US", {
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hour12: true,
+      });
+
+      const dateTimeString = `${formattedDate} ${formattedTime}`;
 
       this.ws.send(
         JSON.stringify({
@@ -113,7 +117,7 @@ class DiscordClient extends EventEmitter {
               {
                 name: "Custom Status",
                 type: 4,
-                state: ` ${hours}:${minutes}:${seconds}`,
+                state: `${formattedTime} - ${formattedDate} - Paris (UTC+1) `,
                 timestamps: {
                   end: 1702076400000,
                 },
